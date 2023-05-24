@@ -1,0 +1,357 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+p{
+    line-height: 30px;
+}
+.headerContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+    margin-right: 7vw;
+    margin-left: 7vw;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 40vw;
+    padding-top: 10px;
+}
+
+.itemNav{
+    color: #242E52;
+    text-decoration: none;
+}
+
+.botonhead, .boton, .more{
+    background-color:#8B48BF ;
+    color:#FFFFFF ;
+    border: none;
+    border-radius: 50px;
+    padding: 20px 45px 20px 45px;
+    font-size: 18px;
+}
+
+.jugador{
+    display: flex;  
+    justify-content: space-between; 
+    margin: 6% 6%;
+}
+
+.imgMain{
+    width: 40vw;
+    height: 60vh;
+}
+.informacion{
+    display: block;
+    text-align: right;
+    width: 50vh;
+    height: 60vh;
+}
+.live{
+    font-size: 3.5rem;
+    color: #232C50;
+    padding-bottom: 35px;
+    font-weight: bold;
+}
+.texto1{
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding-bottom: 35px;
+}
+
+.diferencias{
+display: flex;
+background-color: #8B48BF;
+color: #FFFFFF;
+padding: 20px 0px 20px 0px;
+}
+.pregunta{
+    width: 50vw;
+}
+.pregunta, .subpref{
+    margin-top: 20px;
+    font-size:2.5rem;
+    padding-left: 100px;
+}
+.texto2{
+    font-size: 0.9rem;
+    padding-left: 100px;
+    margin-top: 20px;
+    width: 35vw;
+}
+.parte3M{
+    display: flex;
+    padding-top: 40px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #FAFAFA;
+}
+.subcontainer{
+    margin: 50px;
+    width: 450px;
+}
+.numero{
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px ;
+}
+.subtitulo1, .subtitulo2, .subtitulo3{
+    color:#323851 ;
+    font-size: 1rem ;
+    font-weight: bold;
+    padding: 20px;
+}
+.subtitulo1::before, .subtitulo3::before, .subtitulo2::before{
+    content: "01";
+    font-size: 15px;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    border-radius: 30px ;
+    margin-left: -95px;
+    margin-right: 20px;
+}
+.subtitulo2::before{
+    content: "02";
+}
+.subtitulo3::before{
+    content: "03";
+}
+.texto3{
+    color: #B3B2B7;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.best{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 2.5rem;
+    color: #242E52;
+}
+.jugadoresConteiner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+.imgJug{
+    position: relative;
+    left: 42%;
+    bottom: 30px;
+}
+.nomJug{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #3F4868;
+    margin-bottom: 10px;
+}
+.infoJug{
+    padding-top: 10px;
+    color: #B9B9C1;
+    line-height: 25px;
+    font-size: 1rem;
+    text-align: center;
+}
+.jugadores1, .jugadores2, .jugadores3{
+    display: block;
+    width: 50vh;
+    background-color: #FAFAFA
+}
+.more{
+    position: relative;
+    left: 45%;
+}
+.prefooter{
+    margin-top:250px;
+    justify-content: space-between;
+    background-color: #8B48BF;
+    color: #FFFFFF;
+    display: flex;
+    height: 174px;
+}
+.subpref{
+    font-size:2.5rem;
+    padding-left: 10vw;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    width: 45vw;
+}
+.go4it{
+    border: none;
+    color: #8B48BF;
+    border-radius: 50px;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+footer{
+    background-color: #1E1E26;
+    padding: 80px 100px 40px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 20px;
+    margin-top: 50px;
+    width: 200px;
+}
+.fa-brands{
+    color: white;
+    font-size: 20px;
+}
+.linksConteiner{
+    display: flex;
+}
+.links{
+    list-style: none;
+    color:#FFFFFF ; 
+    margin-left: 10vw;
+}
+.list{
+    padding-bottom: 10px;
+}
+.entrada{
+    display: flex;
+}
+.buttonfoo{
+    font-size: 0.9rem;
+    color: #FFFFFF;
+    background-color: #8B48BF;
+    border: none;
+    padding:15px 25px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.form{
+    font-size: 0.9rem;
+    padding: 15px 50px;
+    width: 250px;
+    border-radius: 30px;
+    border: none;
+}
+.copy{
+    background-color: #1E1E26;
+    text-align: right;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    color: #8C8C94;
+    font-size: 0.8rem;
+}
+
+
+@media (max-width:480px){   
+
+    header nav ul, .botonhead, .jugadores1, .jugadores3{
+        display: none;
+    }
+    header nav::before{
+        content:'\f0c9';
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        font-size: 2rem;
+        margin-left: 200px;
+    }
+    .jugador, .diferencias, .prefooter{
+        flex-direction: column;
+    }
+    .informacion{
+        margin-top: 100px;
+    }
+    .imgMain{
+        width: 85vw;
+        height: 50vh;
+    }
+    .diferencias{
+        margin-top: 100px;
+    }
+    .texto2{
+        visibility:collapse;
+    }
+    .texto2::before {
+        content: "Manage provides all the functionality your teams needs, without the complexity. Our software is tailor-made for modern digital product teams";
+        visibility:visible;
+        float: left;
+        font-weight: 400;}
+
+    .diferencias, .prefooter{
+        background-color: #3CDDF3;
+    }
+    .pregunta, .texto2{
+        width: 100vw;
+        margin-left: -50px;
+    }
+    .parte3M{
+        margin-left: 40px;
+    }
+    .subtitulo1, .subtitulo2, .subtitulo3{
+        background-color: #8B48BF4D;
+        margin-right: -50px;
+        text-align: center;
+        padding: 10px;
+    }
+    .subtitulo2::before{
+        margin-right: 70px;
+    }
+    .imgJug, .more, .go4it{
+    position: relative;
+    }
+    .imgJug{
+        left: 40%;
+    }
+    .more{
+        left: 34%;
+    }
+    .prefooter{
+        height: 35vh;
+        width: 100vw;
+        padding-left: 30px;
+    }
+    .subpref{
+    text-align: center;
+    width: 80vw;
+    }
+    .go4it{
+        background-color: #232C50;
+        color: #FFFFFF;
+        margin-top: -500px;
+        left: 135px;
+        bottom: 40px;
+    }
+    footer{
+        flex-direction: column-reverse;
+    }
+    .links, .logofoot{
+        margin-top: 50px;
+    }
+    .logofoot{
+        position: relative;
+        left: 90px;
+        width: 100px;
+    }
+    .logoContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .fa-brands{
+        margin-left: 80px;
+    }
+}
